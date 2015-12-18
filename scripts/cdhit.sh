@@ -22,6 +22,5 @@ if [ -f $OFILE.exit ]; then
     EXIT=$(cat $OFILE.exit)
     exit $EXIT
 fi
-#cd-hit-est -i contigs_all -o $OUTDIR/contigs_all.cdhit.80 -c 0.8  -G 1 -M 0 -T 28 -aS 0.9 -B 0 -p 1 -g 1 -r 1  2> $OUTDIR/contigs_all.cdhit.80.stderr  > $OUTDIR/contigs_all.cdhit.80.stdout
-cd-hit-est -i contigs_all -o $OFILE $@ 2> $OFILE.stderr  > $OFILE.stdout
+cd-hit-est -i data/contigs_all.fsa -o $OFILE $@ 2> $OFILE.stderr  > $OFILE.stdout
 echo $? > $OFILE.exit
