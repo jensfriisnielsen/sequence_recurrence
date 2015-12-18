@@ -1,0 +1,22 @@
+f???.+
+    contains datasets that HAVE feature
+f???.-
+    contains datasets that do NOT have feature
+
+featuresall
+featuresbio
+featuresmet
+featurestec
+    contains the features involved as biological, methodological or technical
+    for instance:
+    featuresall
+        f001
+        f002
+        f003
+    featuresbio
+        f001
+    featuresmet
+        f002
+    featurestec
+        f003
+    

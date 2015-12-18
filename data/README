@@ -1,0 +1,19 @@
+blastn+x_besthit.txt
+    contains the besthit for each query of either blastn or blastx based on bit-score
+contigs_all.fsa
+    contains all contigs in fasta format with the following naming convention
+    >[dataset]_[contig.no]
+    >s0001_c000001
+    ...
+    >s0001_c000002
+    ...
+    >s0002_c000001
+    ...
+all_datasets
+    contains all dataset identifiers one pr line
+    for instance..
+    s0001
+    s0002
+    s0003
+    s0004
+    ...

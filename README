@@ -1,0 +1,20 @@
+### PUBLICATION
+Identification of known and novel recurrent viral sequences in data from multiple patients and multiple cancers
+
+### DEPENDENCIES
+cd-hit-est
+python2.7
+gawk
+assembled contigs
+BLASTed contigs
+
+### INSTALL
+install/create dependencies
+setup data/ (see READMEs) 
+edit Makefile with significance level
+
+### RUN 
+> make clustering
+> make feature_associations
+> make taxonomy
+> make table.txt
